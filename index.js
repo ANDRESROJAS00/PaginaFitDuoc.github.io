@@ -28,7 +28,7 @@ function renderContent() {
       <h1>FitDuoc</h1>
       <p>¡La app creada para facilitar el consumo de alimentos día a día!</p>
       <p>
-        FitDuoc se asemeja a apps como Fitia y está diseñada para ayudarte a organizar tus comidas,
+        FitDuoc está diseñada para ayudarte a organizar tus comidas,
         mantener un control saludable y hacer tu vida más práctica.
       </p>
       <p>Escanea el código QR a continuación para descargar la aplicación:</p>
