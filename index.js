@@ -1,5 +1,5 @@
 // URL de la APK
-const apkUrl = "https://www.mediafire.com/file/5ktq6dv88hu5dat/app-debug.apk/file";
+const apkUrl = "https://download.mediafire.com/5ktq6dv88hu5dat/app-debug.apk";
 
 // Detectar si el usuario está en móvil
 function isMobileDevice() {
