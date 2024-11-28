@@ -15,12 +15,12 @@ function renderContent() {
     // Mostrar enlace de descarga para móvil
     contentDiv.innerHTML = `
       <h1>Descarga la APK</h1>
-      <p><a href="${apkUrl}" download>Haz clic aquí para descargar la APK</a></p>
+      <p><a href="${apkUrl}" download>Descargar APK</a></p>
     `;
   } else {
     // Mostrar QR para computadora
     contentDiv.innerHTML = `
-      <h1>Escanea el código QR para descargar la APK</h1>
+      <h1>Escanea el código QR</h1>
       <div id="qrcode"></div>
     `;
     const qrCode = new QRCode(document.getElementById("qrcode"), {
@@ -33,3 +33,4 @@ function renderContent() {
 
 // Ejecutar la función al cargar la página
 document.addEventListener("DOMContentLoaded", renderContent);
+
