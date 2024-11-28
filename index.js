@@ -1,5 +1,5 @@
-// URL de la APK
-const apkUrl = "https://download.mediafire.com/5ktq6dv88hu5dat/app-debug.apk";
+// URL directa de la APK desde GitHub Releases
+const apkUrl = "https://github.com/ANDRESROJAS00/PaginaFitDuoc.github.io/releases/download/FitDuocUrl/FitDuoc.apk";
 
 // Detectar si el usuario está en móvil
 function isMobileDevice() {
@@ -33,4 +33,5 @@ function renderContent() {
 
 // Ejecutar la función al cargar la página
 document.addEventListener("DOMContentLoaded", renderContent);
+
 
