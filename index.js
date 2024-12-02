@@ -11,7 +11,7 @@ function isMobileDevice() {
 function renderContent() {
   const contentDiv = document.getElementById("content");
 
-  if (isMobileDevice()) {
+  if (isMobileDevice() || window.innerWidth <= 768) {
     // Mostrar enlace de descarga para móvil
     contentDiv.innerHTML = `
       <h1>FitDuoc</h1>
@@ -44,3 +44,6 @@ function renderContent() {
 
 // Ejecutar la función al cargar la página
 document.addEventListener("DOMContentLoaded", renderContent);
+
+// Escuchar cambios en el tamaño de la ventana
+window.addEventListener('resize', renderContent);
