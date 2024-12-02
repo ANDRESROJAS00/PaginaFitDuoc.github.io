@@ -54,7 +54,7 @@ ul li {
 
 ul li i {
   margin-right: 10px;
-  color: #fff; /* Color blanco para los iconos */
+  color: #000; /* Color negro para los iconos en la sección de características */
 }
 
 /* Enlace de descarga */
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .footer a {
-  color: #00f2fe;
+  color: #fff; /* Color blanco para los enlaces en el footer */
   text-decoration: none;
 }
 
@@ -109,5 +109,5 @@ a:hover {
 
 .footer i {
   margin-right: 5px;
-  color: #fff; /* Color blanco para los iconos */
+  color: #fff; /* Color blanco para los iconos en el footer */
 }
