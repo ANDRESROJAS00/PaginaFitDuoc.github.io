@@ -49,6 +49,11 @@ ul {
 
 ul li {
   margin: 10px 0;
+  font-size: 18px;
+}
+
+ul li i {
+  margin-right: 10px;
 }
 
 /* Enlace de descarga */
@@ -99,4 +104,8 @@ a:hover {
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+.footer i {
+  margin-right: 5px;
 }

@@ -20,7 +20,7 @@ function renderContent() {
         Descarga FitDuoc y lleva un registro eficiente y personalizado de tus comidas.
         Diseñada para ayudarte a mantener un estilo de vida saludable de manera práctica y accesible.
       </p>
-      <p><a href="${apkUrl}" download>Descargar APK</a></p>
+      <p><a href="${apkUrl}" download><i class="fas fa-download"></i> Descargar APK</a></p>
     `;
   } else {
     // Mostrar QR para computadora junto con la descripción
