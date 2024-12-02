@@ -54,6 +54,7 @@ ul li {
 
 ul li i {
   margin-right: 10px;
+  color: #fff; /* Color blanco para los iconos */
 }
 
 /* Enlace de descarga */
@@ -73,21 +74,6 @@ a {
 a:hover {
   background: #007BFF;
   color: #fff;
-}
-
-/* Botón primario */
-.btn-primary {
-  background: #007BFF;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 18px;
-  transition: background 0.3s ease;
-}
-
-.btn-primary:hover {
-  background: #0056b3;
 }
 
 /* QR Code */
@@ -123,4 +109,5 @@ a:hover {
 
 .footer i {
   margin-right: 5px;
+  color: #fff; /* Color blanco para los iconos */
 }
