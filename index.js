@@ -44,6 +44,3 @@ function renderContent() {
 
 // Ejecutar la función al cargar la página
 document.addEventListener("DOMContentLoaded", renderContent);
-
-
-
